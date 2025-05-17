@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="useofjs.js" defer></script>
+</head>
+<body>
+    <h1>Javascript</h1>
+    <!-- inline JS -->
+    <button onclick="alert('danger')">Sumit</button>
+    <!-- internal JS -->
+     <button onclick="changeText()">change</button>
+     <button onclick="darkmode()">click</button>
+
+
+     <script>
+       function changeText(){
+        document.querySelector("h1").innerHTML ="JS Hacking";
+       }
+     </script>
+</body>
+</html>
